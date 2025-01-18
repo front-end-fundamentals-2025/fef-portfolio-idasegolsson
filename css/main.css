@@ -24,8 +24,28 @@ a {
   color: black;
 }
 
-/* main*/
+/* images*/
 
 .main-img {
-  width: 40%;
+  width: 25%;
+  padding-left: 4%;
+}
+.glasses-img {
+  width: 25%;
+  padding-left: 4%;
+}
+
+/*about me page*/
+
+h1 {
+  text-align: center;
+}
+h2 {
+  padding-left: 4%;
+}
+p {
+  padding-left: 4%;
+}
+#back-button {
+  padding-left: 4%;
 }
