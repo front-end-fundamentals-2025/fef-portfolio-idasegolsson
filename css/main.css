@@ -13,24 +13,39 @@
   display: inline;
   */
   text-align: center;
+  padding: 0;
+}
+#back-button {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding-left: 0;
   font-size: 20;
 }
+
+/*navigation*/
+li {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  list-style: none;
+}
+
 a {
   color: black;
 }
 
-/* images*/
+/* images class main*/
 
 .main-img {
-  width: 25%;
-  padding-left: 4%;
-}
-.glasses-img {
   width: 25%;
   padding-left: 4%;
 }
@@ -46,6 +61,27 @@ h2 {
 p {
   padding-left: 4%;
 }
-#back-button {
-  padding-left: 4%;
+
+/*single images for projects*/
+.big-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-imgs {
+  width: 30rem;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 40rem);
+  justify-content: center;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
 }
