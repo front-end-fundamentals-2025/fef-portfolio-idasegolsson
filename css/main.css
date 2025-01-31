@@ -3,7 +3,7 @@
   background-color: #eae3c9;
 }
 
-/* links*/
+/* header*/
 
 #logo {
   font-weight: 1000;
@@ -23,6 +23,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 520px) {
+  header {
+    flex-direction: column;
+  }
 }
 
 ul {
@@ -71,17 +76,32 @@ p {
 }
 
 .projects-imgs {
-  width: 30rem;
-}
-.project-container {
-  display: grid;
-  grid-template-columns: repeat(2, 40rem);
-  justify-content: center;
+  width: 100%;
 }
 
 .project-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 3rem;
   margin-left: 1.5rem;
+}
+
+@media screen and (min-width: 520px) {
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 40rem);
+    justify-content: center;
+  }
+  .project-section {
+    flex-direction: row;
+  }
+  .big-img {
+    width: 70%;
+  }
+}
+
+.projects-description {
+  padding-left: 2%;
+  margin-top: 0%;
+  line-height: 2rem;
 }
