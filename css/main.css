@@ -132,11 +132,18 @@ p {
   grid-template-columns: repeat(2, 1fr);
   justify-content: stretch;
 }
+.images-efva img {
+  width: 100%;
+}
+
 /*images green day*/
 .images-greenday {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: stretch;
+}
+.images-greenday img {
+  width: 100%;
 }
 
 /*images tattoo*/
@@ -145,12 +152,21 @@ p {
   grid-template-columns: repeat(2, 1fr);
   justify-content: stretch;
 }
+.images-tattoos img {
+  width: 100%;
+}
+
 /*images logo*/
 .images-logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: stretch;
 }
+
+.images-logo img {
+  width: 100%;
+}
+
 /*images momento*/
 .images-momento {
   display: grid;
@@ -158,8 +174,24 @@ p {
   justify-content: stretch;
 }
 
+.images-momento img {
+  width: 100%;
+}
+
+/*images game*/
+.images-game {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: stretch;
+}
+
+.images-game img {
+  width: 100%;
+}
+
+/*images main page*/
 .projects-imgs {
-  width: 90%;
+  width: 95%;
   height: auto;
 }
 
@@ -173,10 +205,14 @@ p {
 }
 @keyframes shake {
   25% {
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 }
-
+/*H2 {
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+}
+*/
 @media screen and (min-width: 700px) {
   .project-container {
     display: grid;
